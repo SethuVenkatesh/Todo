@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.App{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   background-color: bisque;
+
+}
+.Home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 70vh;
+    min-width: 35vw;
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow:5px 10px 8px black;
+
+}
+.Header{
+    margin:10px;
+    color:white;
+}
+.Home form{
+    margin:30px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-around;
+    min-width: 30vw;
+
+}
+.form-input{
+   padding: 6px;
+   border-radius: 6px;
+   border:none;
+}
+.form-button{
+    background-color: blue;
+    padding: 6px;
+    border-radius: 6px;
+    border: none;
+}
+
+.list{
+    margin:10px;
+    min-width: 30vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 6px;
+    
+}
